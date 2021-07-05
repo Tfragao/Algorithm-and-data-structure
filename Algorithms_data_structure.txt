@@ -1,0 +1,61 @@
+Algorithm
+    => Clearly defined problem statement, input, and output.
+    => The steps in the algorithm need to be in a very specific order.
+    => The steps also need to be distinct.
+    => The algorithm should produce a result. 
+    => The algorithm should complete in a finite amount of time.
+
+Some definitions to look up :
+    + Correctness and efficiency
+Linear search vs binary search
+
+Time complexity (efficiency)
+
+Big O: theoretical definition of the complexity of an algorithm as a function of the size.
+Big O is a notation to describe complexity. O(n)
+    => O stands for : Order of magnitude of complexity
+    => n : A fucntion of the size
+Big O measures how the algorithm performs in worst case scenario.
+For Example:
+    Linear search : O(n) -> big O of n or linear runtime 
+    Binary Search:  O(log n) logarithimic runtime
+
+The list that we are going to apply a binary search has to be sorted.
+
+Recursive function ones that calls itself. recursively work on the problem until it finds a concrete answer.
+
+Two ways we have used to implement a binary search:
+    => iterative solution (using loops structure)
+    => Recursive solution (using a recursive function)
+Python does not like recursion compared to other programmming language, in fact Python has a maximum recursion
+depth after which our function will hault execution. Python prefer an iterative solution (like the one implemented in binary_search.py)
+
+There are two ways to measeure the efficiency of an algorithm:
+    1) Time complexity-> how the run time of an algorithm grows as n grows larger.
+    2) Space complexity-> measeure of how much working storage or extra storage is needed as a particular
+    algorithm grows.
+Like time complexity, space complexity is measured using big O notation
+
+
+Data structure
+    A data structure is a data storage format. It is the collection of values and the format they are stored in,the relationships between the values in the collection as well as the operation applied on the data stored in the structure.
+Arrays
+    arrays in a Python is a heterogeneous structure that means in an array you can have data of diferent type (int , string int the same array) which is different from other programmming language like C, Swift, Java which are homogeneous meaning an array collect data of the same type.
+For example list in Python is what in other programmming language we call array.
+
+OPerations on Data structure:
+    => Access and read values
+    => Search for an arbitrary values
+    => Insert values at any point into the structure
+    => Delete values in the structure
+
+Arrays vs Linked list
+array are particularly good at accesing, reading values happens in constant time but arrays are pretty bad at
+inserting and deleting both of which run in linear time. Linked lists on the other hand are somewhat better at this although there are some caveats.
+
+
+
+
+
+
+
