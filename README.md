@@ -1,1 +1,1 @@
-# Learning algorithm and data structure from (tree house and Freecodecamp)
+Basic algorithm and data structure in Python.
